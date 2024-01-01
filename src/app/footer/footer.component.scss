@@ -1,0 +1,48 @@
+.footer{
+    margin-top: 10vh;
+    background-color:darkslategray;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px;
+    list-style: none;
+    display: flex;
+}
+h3{
+padding-top: 10vh;
+font-family: "Tangerine", serif;
+font-size: 10vh;
+font-weight: 900;
+color: cadetblue;
+}
+h3:hover{
+    color: gray;
+}
+.footertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5vh 2vh;
+    cursor: pointer;
+}
+.footertext:hover{
+    color:olivedrab
+}
+.social-media{
+    cursor: pointer;
+}
+.social-media:hover{
+    color: aliceblue;
+}
+/* footer.component.css */
+p{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: 0px solid;
+    border-radius: 60px;
+  }
+  

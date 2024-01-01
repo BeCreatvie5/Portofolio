@@ -1,0 +1,90 @@
+
+*{
+    margin: 2vh;
+    padding: 0;
+}
+h3{
+    font-size: 7vh;
+    font-family: "Tangerine", serif;
+    font-weight: bold;
+}
+
+h3 u:hover{
+    color:coral;
+}
+li{
+    font-family: "Tangerine", serif;
+    font-weight: bold;
+    font-size: 5vh;
+}
+h1:hover{
+    color: white;
+}
+.card{
+
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#c7e6cc5e;
+    border-radius: 16px;
+    backdrop-filter: blur(0.8px);      
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.card:hover{
+    transform: scale(0.9);
+}
+.placecards{
+    margin-top: 60vh !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+
+}
+.placecards1{
+    margin-top: 10vh !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+
+}
+/* your-component.component.css */
+/* your-component.component.css */
+li {
+    position: relative;
+    list-style: none;
+  }
+  
+  .image-container {
+    display: none;
+    position: absolute;
+    inset: (-100% 100%);
+    transform: translateY(-100%);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container img {
+    max-width: 20vh; /* Adjust the maximum width as needed */
+    max-height: 20vh; /* Adjust the maximum height as needed */
+    display: block;
+    margin: 0 auto;
+    border:3px solid white;
+  }
+  
+  li:hover .image-container {
+    display: block;
+  }
+
+  
+  

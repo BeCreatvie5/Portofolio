@@ -1,0 +1,46 @@
+.certification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    background: #f2f5f25e;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding for spacing */
+    flex-wrap: wrap;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; 
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.example-card img {
+    margin: 10px 0;
+    width: 30vh;
+    height: 30vh;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 0px;
+    border: 5px solid darkkhaki;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.example-card:hover{
+    transform: scale(1.1);
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray
+}
+  

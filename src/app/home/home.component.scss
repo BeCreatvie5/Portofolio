@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// .text{
+//   font-family: 'Tangerine', serif;
+//   text-shadow: 4px 4px 4px #aaa;
+//   font-size: 5rem; /* Adjust the font size as needed */
+//   font-weight: 700; /* Options: normal, bold, bolder, lighter, 100-900 */
+//   font-style: italic; /* Options: normal, italic, oblique */
+//   color: #475344;
+// }
+
+.subtitle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    font-family: "Tangerine", serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 2rem;
+    font-style: italic;
+    color: #475344;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: animatedEffect 1.5s ease-in-out forwards;
+
+}
+.subtitle:hover{
+    color: white;
+}
+@keyframes animatedEffect{
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.card{
+    margin-top:2vh;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    backdrop-filter: blur(0.8px);      
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.animated-text {
+    margin-top:2vh;
+    font-family: "Tangerine", serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #475344;
+    border: 15px solid white;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: animatedText 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes animatedText {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+/* styles.css */
+
+// @keyframes slideIn {
+//     from {
+//       transform: translateX(-100%);
+//       opacity: 0;
+//     }
+//     to {
+//       transform: translateX(0);
+//       opacity: 1;
+//     }
+//   }
+  
+//   .animated-text {
+//     animation: slideIn 1s ease-in-out;
+//   }
+  
+//   .fade-in {
+//     opacity: 0;
+//     animation: fadeIn 1.5s ease-in-out forwards;
+//   }
+  
+//   @keyframes fadeIn {
+//     from {
+//       opacity: 0;
+//     }
+//     to {
+//       opacity: 1;
+//     }
+//   }
+//   .slide-in-bottom {
+//     transform: translateY(100%);
+//     animation: slideInBottom 1s ease-in-out forwards;
+//   }
+  
+//   @keyframes slideInBottom {
+//     from {
+//       transform: translateY(100%);
+//     }
+//     to {
+//       transform: translateY(0);
+//     }
+//   }
+//   .bounce {
+//     animation: bounce 1s ease-in-out infinite;
+//   }
+  
+//   @keyframes bounce {
+//     0%, 20%, 50%, 80%, 100% {
+//       transform: translateY(0);
+//     }
+//     40% {
+//       transform: translateY(-20px);
+//     }
+//     60% {
+//       transform: translateY(-10px);
+//     }
+//   }
+// //   .spin {
+// //     animation: spin 2s linear infinite;
+// //   }
+  
+// //   @keyframes spin {
+// //     0% {
+// //       transform: rotate(0deg);
+// //     }
+// //     100% {
+// //       transform: rotate(360deg);
+// //     }
+// //   }
+//   .pulse {
+//     animation: pulse 1s ease-in-out infinite;
+//   }
+  
+//   @keyframes pulse {
+//     0%, 100% {
+//       transform: scale(1);
+//     }
+//     50% {
+//       transform: scale(1.1);
+//     }
+//   }
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 20px solid black;
+  border-radius: 170px;
+  transition:transform 0.3s ease-in-out
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.profile{
+  width: 250px;
+  height: 250px;
+  border: 10px solid white;
+  border-radius: 150px;
+  transition:transform 0.3s ease-in-out
+}
+.profile:hover{
+  transform: scale(1.1);
+}

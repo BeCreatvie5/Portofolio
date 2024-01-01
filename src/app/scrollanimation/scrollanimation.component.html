@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="placecards">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                    <h3><u class="underline">Hobbies</u></h3>
+
+                      <!-- your-component.component.html -->
+                        <ul>
+                            <li *ngFor="let item of items" (mouseenter)="showImage(item)" (mouseleave)="hideImage()">
+                            {{ item.name }}
+                            <div class="image-container" *ngIf="item.showImage">
+                                <img [src]="item.imageUrl" alt="Item Image">
+                            </div>
+                            </li>
+                        </ul>  
+                </div>
+            </div>    
+            <div class="placecards1">
+                <div class="card" data-aos="fade-right" data-aos-duration="1500">
+                    <h3><u class="underline">Intersts</u></h3>
+                      <!-- your-component.component.html -->
+                        <ul>
+                            <li *ngFor="let item of items2" (mouseenter)="showImage(item)" (mouseleave)="hideImage()">
+                            {{ item.name }}
+                            <div class="image-container" *ngIf="item.showImage">
+                                <img [src]="item.imageUrl" alt="Item Image">
+                            </div>
+                            </li>
+                        </ul>  
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
