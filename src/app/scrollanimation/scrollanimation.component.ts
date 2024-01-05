@@ -29,6 +29,13 @@ export class ScrollanimationComponent implements OnInit,AfterViewInit {
     { name: 'Learning new Technlogies', imageUrl: 'assets/images/tech.jpg', showImage: false },
     { name: 'Exploring', imageUrl: 'assets/images/explore.jpg', showImage: false },
   ]
+  items3=[
+    { name: 'Angular', imageUrl: 'assets/images/travelling.jpg', showImage: false },
+    { name: 'HTML', imageUrl: 'assets/images/tech.jpg', showImage: false },
+    { name: 'SCSS', imageUrl: 'assets/images/explore.jp g', showImage: false },
+    { name: 'TypeScript', imageUrl: 'assets/images/explore.jp g', showImage: false },
+    { name: 'Bootstrap', imageUrl: 'assets/images/explore.jp g', showImage: false },
+  ]
   hoveredItem: any;
 
   showImage(item: any): void {

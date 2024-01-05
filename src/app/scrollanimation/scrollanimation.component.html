@@ -30,6 +30,17 @@
                         </ul>  
                 </div>
             </div>    
+            <div class="placecards3">
+                <div class="card" data-aos="fade-left" data-aos-duration="1500">
+                    <h3><u class="underline">Skills</u></h3>
+                      <!-- your-component.component.html -->
+                        <ul>
+                            <li *ngFor="let item of items3" (mouseenter)="showImage(item)" (mouseleave)="hideImage()">
+                            {{ item.name }}
+                            </li>
+                        </ul>  
+                </div>
+            </div>    
         </div>
     </div>
 </div>

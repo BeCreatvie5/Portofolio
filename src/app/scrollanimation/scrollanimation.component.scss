@@ -58,6 +58,16 @@ h1:hover{
     transition: transform 0.3s ease-in-out;
 
 }
+.placecards3{
+    margin-top: 10vh !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+    
+}
 /* your-component.component.css */
 /* your-component.component.css */
 li {
